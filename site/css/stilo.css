@@ -53,9 +53,10 @@ video{
     margin: 15px;
     width: 250px;
     height: 500px;
+    float: left;
 }
 article{
-    background-color: rgb(231, 203, 127);
+    color: white;
     margin: 15px;
     height: auto;
     padding: 0%;
@@ -63,19 +64,21 @@ article{
 }
 article > h1 {
     text-align: center;
-    color: rgb(141, 35, 35);
+    color:rgb(182, 30, 30)
     font-family: Arial, Helvetica, sans-serif;
 }
-article > h2 {
-    color: rgb(141, 35, 35);
+article > h2{
+    color: white;
     margin: 5px;
 }
+
 .sidebar{
     background-color: blue;
     width: 300px;
     height: 500px;
     float: right;
     margin: 15px;
+    color: white;
 }
 form > h3, label,input,textarea{
     margin: 5px;
@@ -85,10 +88,10 @@ article > p{
     margin: 5px;
     font-size: medium;
     font-family: sans-serif;
-    color: rgb(117, 40, 40);
+    color: white
 }
 main > img{
-    margin: 5px;
+    margin-left: 40px;
 }
 main > p{
     text-align: justify;
